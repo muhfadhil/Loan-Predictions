@@ -747,9 +747,9 @@ for name, model in models_final.items():
     comparing_loans(name, model)
 
 """## Conclusion
-- **Logistic Regression** : If the logistic regression model is chosen in classifying good and risky loans, this data will consist of **90.166% good loans** and **9.834% risky loans** with an accuracy of 91.6%, precision of 86.1%, recall of 99.2%, and ROC AUC of 0.956.
-- **K-Nearest Neighbors** : Ff the knn model is selected in classifying good and risky loans, this data will consist of **83.601% good loans** and **16.399% risky loans** with 88.5% accuracy, 82.5% precision, 97.9% recall, and ROC AUC 0.937.
-- **Random Forest** : if the random forest model is chosen in classifying good and risky loans, this data will consist of **82.719% good loans** and **17.281% risky loans** with an accuracy of 92.8%, precision of 88%, recall of 99.2%, and ROC AUC of 0.963.
+- **Logistic Regression** : if the logistic regression model is chosen in classifying good and risky loans, this data will consist of **90.166% good loans** and **9.834% risky loans**.
+- **K-Nearest Neighbors** : if the knn model is selected in classifying good and risky loans, this data will consist of **83.601% good loans** and **16.399% risky loans**.
+- **Random Forest** : if the random forest model is chosen in classifying good and risky loans, this data will consist of **82.719% good loans** and **17.281% risky loans**.
 
 Overall the model is able to make predictions that are very accurate and consistent.
 
